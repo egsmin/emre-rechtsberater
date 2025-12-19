@@ -37,6 +37,13 @@ export function Hero() {
         >
           Next.js
         </a>
+        <div className="text-xs text-gray-500">
+          <div className="text-xs text-gray-500">
+                {process.env.NEXT_PUBLIC_SUPABASE_URL}
+
+                lol
+              </div>
+        </div>
       </p>
       <div className="w-full p-[1px] bg-gradient-to-r from-transparent via-foreground/10 to-transparent my-8" />
     </div>

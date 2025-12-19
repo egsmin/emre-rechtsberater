@@ -23,7 +23,14 @@ export default function ProtectedLayout({
               </div>
             </div>
             {!hasEnvVars ? (
+              <>
               <EnvVarWarning />
+              <div className="text-xs text-gray-500">
+                {process.env.NEXT_PUBLIC_SUPABASE_URL}
+                {process.env.SUPABASE_URL}
+                lol
+              </div>
+              </>
             ) : (
               <Suspense>
                 <AuthButton />
