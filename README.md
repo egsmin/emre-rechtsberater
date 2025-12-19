@@ -40,3 +40,15 @@ Hier lassen sich beliebige PDF-Dokumente hochladen. Diese werden dann embedded u
 Man hätte vieles besser machen können. Darunter eine sauberere Architektur und schöneren Code. Aber ich habe diesen Task u.A. als Herausforderung gesehen, nahazu vollständig auf die Nutzung von KI zu verzichten, um mir selber zu beweisen, dass ich einer solchen Aufgabe gewachsen bin. Darüber hinaus hat auch die Zeit eine große Rolle gespielt.
 
 
+## Starten des Projekts
+
+### Pre-Requirements
+1. Supabase Projekt, welches eine `public.chat` Tabelle beinhaltet
+2. QDRANT-Service, welcher eine `global` collection beinhaltet
+
+### Schritte
+
+1. Die `.env.example` in `.env` umbenennen oder kopieren und Werte einsetzen
+2. `npm run build`
+3. `npm start`
+
